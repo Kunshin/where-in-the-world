@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
--   Live Site URL: [https://where-in-the-world.vercel.app](https://where-in-the-world.vercel.app)
+-   Live Site URL: [https://in-the-world-seven.vercel.app/](https://in-the-world-seven.vercel.app/)
 
 ## My process
 
