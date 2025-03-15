@@ -66,6 +66,7 @@ export default function Page({
                                     alt="flag"
                                     width={300}
                                     height={200}
+                                    priority
                                 />
                             </div>
                         </div>

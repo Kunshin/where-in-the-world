@@ -11,6 +11,7 @@ export default function Country({ data }) {
                     alt="flag"
                     width={300}
                     height={200}
+                    priority
                 />
             </div>
             <div className="p-6">
