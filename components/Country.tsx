@@ -6,7 +6,7 @@ export default function Country({ data }) {
         <div className="rounded-md bg-white dark:bg-dark-blue shadow-md">
             <div className="bg-white dark:bg-dark-blue shadow-sm">
                 <Image
-                    className="w-full max-h-[230px]"
+                    className="w-full aspect-3/2 object-contain"
                     src={data?.flags?.svg}
                     alt="flag"
                     width={300}

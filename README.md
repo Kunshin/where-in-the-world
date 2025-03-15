@@ -9,6 +9,8 @@ This is a solution to the [REST Countries API with color theme switcher challeng
     -   [Links](#links)
 -   [My process](#my-process)
     -   [Built with](#built-with)
+-   [Author](#author)
+-   [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -25,7 +27,7 @@ Users should be able to:
 
 ### Links
 
--   Live Site URL: [https://in-the-world-seven.vercel.app/](https://in-the-world-seven.vercel.app/)
+-   Live Site URL: [https://where-in-the-world-kunshin.vercel.app/](https://where-in-the-world-kunshin.vercel.app/)
 
 ## My process
 
@@ -36,3 +38,11 @@ Users should be able to:
 -   Mobile-first workflow
 -   [Next.js](https://nextjs.org/) - React framework
 -   [Tailwind CSS](https://tailwindcss.com/) - For styles
+
+## Author
+
+-   Frontend Mentor - [@Kunshin](https://www.frontendmentor.io/profile/Kunshin)
+
+## Acknowledgments
+
+I would like to thank Frontend Mentor for providing amazing challenges that help improve my frontend skills. 🚀

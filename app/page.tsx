@@ -1,8 +1,11 @@
 'use client'
 
 import { useEffect, useState } from "react";
+import dynamic from "next/dynamic";
 import Header from "../components/Header";
 import Country from "../components/Country";
+
+const ThemeProvider = dynamic(() => import("../context/ThemeContext").then((m) => m.ThemeProvider), { ssr: false });
 
 export default function Page() {
     const [showFilter, setShowFilter] = useState(false);
@@ -38,10 +41,10 @@ export default function Page() {
     }
 
     return (
-        <>
+        <ThemeProvider>
             <Header />
 
-            <div className="flex flex-col items-center p-6">
+            <main className="flex flex-col items-center p-6">
                 <div className="flex flex-col md:flex-row justify-between md:items-center w-full md:h-24 py-6 md:px-8">
                     <div className="relative md:w-2/5">
                         <div className="absolute inset-y-0 left-6 flex items-center">
@@ -88,7 +91,7 @@ export default function Page() {
                         return <Country key={index} data={country} />
                     })}
                 </div>
-            </div>
-        </>
+            </main>
+        </ThemeProvider>
     );
 }
